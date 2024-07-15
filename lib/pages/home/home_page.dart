@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
             onNotification: _onNotification,
             child: ListView(physics: const AlwaysScrollableScrollPhysics(), children: [
               ParallaxBackgroundWidget(parallaxPosition: _parallaxPosition),
-              const Center(child: Text("Paralax Effect", style: TextStyle(color: Colors.white, fontSize: 28)))
+              const Center(child: Text("Parallax Effect", style: TextStyle(color: Colors.white, fontSize: 28)))
             ])));
   }
 }
